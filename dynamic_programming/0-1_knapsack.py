@@ -44,7 +44,7 @@ def solution2(weights, values, capacity):
 
         for c in range(1, len(matrix[0])):
             # for every position compute max between immediate left of us and above and next fitting capactiy
-            if c >= w:
+            if w <= c:
                 matrix[r][c] = max(matrix[r][c], matrix[r - 1][c - w] + val)
 
     # print(matrix)
@@ -52,7 +52,7 @@ def solution2(weights, values, capacity):
     
 
 
-capacity = 30
+capacity = 5
 weights = [10, 20, 30]
 values = [22, 33, 44]
 print("first sol:", solution(weights, values, capacity))
