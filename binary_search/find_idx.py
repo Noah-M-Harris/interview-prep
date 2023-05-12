@@ -51,3 +51,7 @@ print(solution(nums, target)) # 0
 nums = [2, 2, 2, 2, 2, 2, 2, 2]
 target = 2
 print(solution(nums, target)) # 0
+
+nums = [1, 3, 3, 3, 5, 7, 8, 12]
+target = 3
+print(solution(nums, target)) # 1
