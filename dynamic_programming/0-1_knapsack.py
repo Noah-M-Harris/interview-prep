@@ -52,15 +52,15 @@ def solution2(weights, values, capacity):
     
 
 
-capacity = 5
-weights = [10, 20, 30]
-values = [22, 33, 44]
+weights = [24, 10, 10, 7]
+values = [24, 16, 16, 11]
+capacity = 26
 print("first sol:", solution(weights, values, capacity))
 print("second sol:", solution2(weights, values, capacity))
 
 
-weights = [24, 10, 10, 7]
-values = [24, 16, 16, 11]
-capacity = 26
+capacity = 5
+weights = [10, 20, 30]
+values = [22, 33, 44]
 print("first sol:", solution(weights, values, capacity))
 print("second sol:", solution2(weights, values, capacity))
