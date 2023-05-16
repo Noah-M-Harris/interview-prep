@@ -43,7 +43,8 @@ def solution2(weights, values, capacity):
         w, val = weights[r - 1], values[r - 1]
 
         for c in range(1, len(matrix[0])):
-            # for every position compute max between immediate left of us and above and next fitting capactiy
+            # for every position compute max between immediate left of us and above and next fitting capacity
+            matrix[r][c] = matrix[r - 1][c]
             if w <= c:
                 matrix[r][c] = max(matrix[r][c], matrix[r - 1][c - w] + val)
 
