@@ -50,6 +50,7 @@ class LL:
             curr = curr.next
         return result
 
+"""
 root = Node(-1)
 linkedList = LL(root)
 linkedList.add(2)
@@ -60,7 +61,6 @@ linkedList.add(node)
 print(linkedList)
 
 
-
 root = Node(-1)
 second = Node(0)
 third = Node(1)
@@ -68,4 +68,4 @@ root.next = second
 second.next = third
 third.next = Node(2)
 print(root.next)
-
+"""
