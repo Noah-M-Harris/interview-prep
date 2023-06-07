@@ -29,5 +29,6 @@ linkedList.add(23)
 linkedList.add(34)
 linkedList.add(1)
 linkedList.add(37)
-print(solution(linkedList.root))
+root = linkedList.root
+print(solution(root))
 
