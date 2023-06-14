@@ -59,7 +59,7 @@ linkedList.add(node)
 # print(repr(linkedList))
 # print(str(linkedList))
 print(linkedList)
-
+"""
 
 root = Node(-1)
 second = Node(0)
@@ -68,4 +68,3 @@ root.next = second
 second.next = third
 third.next = Node(2)
 print(root.next)
-"""
