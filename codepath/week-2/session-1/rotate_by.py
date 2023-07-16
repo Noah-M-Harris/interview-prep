@@ -64,16 +64,6 @@ def solution(head, k):
     return curr
     
 
-    """
-    while length - processed < (k - 1):
-        curr, prev = curr.next, prev.next
-        processed += 1
-
-    # move the head of linkedlist to prev.next
-    prev.next = None
-    end.next = head
-    return curr
-    """
 
 
 root = Node(1)
